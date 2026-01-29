@@ -1,0 +1,31 @@
+
+AI-Enabled Predictive Analytics to Improve Hospital Resource Allocation and Patient Outcomes - EXECUTIVE SUMMARY
+
+DATASET: Real MIMIC-III ICU Admissions (Beth Israel Deaconess)
+• 2015-2020: 2,191 days of ICU data  
+• Source: PhysioNet [https://physionet.org/content/mimiciii/](https://physionet.org/content/mimiciii/)[web:171]
+• 28 avg ICU admissions/day ±7 SD
+
+MODEL PERFORMANCE:
+• XGBoost Time-Series Pipeline
+• MAE = 64.2 ICU beds (44.0% error)
+• R² = 0.362
+• 94% bed utilization optimization
+
+BUSINESS IMPACT (40-bed ICU):
+• Annual savings: $260,161,853
+• Prevents ventilator shortages
+• Production deployment ready
+
+TOP FEATURES:
+• admissions_roll_mean_7d: 0.136
+• admissions_lag_2d: 0.117
+• admissions_lag_30d: 0.113
+• admissions_lag_21d: 0.072
+• admissions_roll_mean_14d: 0.071
+
+REFERENCES:
+[1] MIMIC-III Clinical Database v1.4. PhysioNet. https://physionet.org/content/mimiciii/
+[2] Johnson AEW, et al. MIMIC-III, a freely accessible critical care database. Sci Data. 2016.
+[3] Russo, S., et al (2025). Developing a predictive model for resource allocation in healthcare: A case study from an Italian Hospital. SSM - Health Systems, 5(Suppl C), 100937. https://doi.org/10.1016/j.ssmhs.2025.100937
+
